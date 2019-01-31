@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {MatCardModule} from '@angular/material/card';
+import {MatSidenavModule,MatFormFieldModule, MatInputModule, MatIconModule, MatTableModule} from '@angular/material';
 
 import { HomePageRoutingModule } from './home-page-routing.module';
 import { HomePageComponent } from './home-page.component';
@@ -10,7 +12,13 @@ import { HomePageComponent } from './home-page.component';
   ],
   imports: [
     CommonModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    MatCardModule,
+    MatSidenavModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    MatTableModule
   ]
 })
 export class HomePageModule { }

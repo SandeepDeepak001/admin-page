@@ -1,0 +1,75 @@
+#header{
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // position: absolute;
+    height: 15%;;
+}
+
+// #sidenav-content{
+//     top:0%;
+//     left:0;
+//     right:0;
+//     bottom:0;
+// }
+
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .example-radio-group {
+    display: block;
+    border: 1px solid #555;
+    margin: 20px;
+    padding: 10px;
+  }
+
+#sidenav{
+    width: 5em;
+    background-color: #212120;
+    color: #529B13;
+}
+
+::ng-deep .mat-sidenav-content{
+    background-color: #f3f6fA !important;
+    color: #b7b7b7;
+}
+
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0 0 9px 3px #e0e0e0, 0 0 20px 5px #e0e0e0, 0 1px 3px 0 rgba(0,0,0,.12);
+}
+
+#header-search{
+    height: 2%;
+}
+
+::ng-deep .mat-input-wrapper{
+    height: 1em !important;
+}
+
+#card-content.mat-card{
+    margin: 4em 2.5em;
+    margin-bottom: 2em;
+    height: 65%;
+}
+
+table {
+    width: 96%;
+    margin: 2%;
+    margin-top: 0%;
+  }
+
+  th.mat-header-cell{
+      color: green;
+  }
+
+  #recently-added{
+    height: 90px;
+    line-height: 90px;
+    padding-left: 2%;
+  }
